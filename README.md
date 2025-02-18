@@ -81,4 +81,4 @@ python ppt.py
 ```
 
 ---
-Made with ❤️ by [Your Name] | Hecho con ❤️ por [Tu Nombre]
+Made with ❤️ by Jezabel | Hecho con ❤️ por Jezabel
