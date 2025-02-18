@@ -1,117 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Mini-Games</title>
-</head>
-<body>
+# 🎮 Python Mini-Games Collection
 
-    <h1>🎮 Python Mini-Games Collection</h1>
-    <p>A collection of fun mini-games developed in Python. Have fun playing them!</p>
+<div align="center">
+    <input type="radio" id="tab1" name="tabs" checked>
+    <label for="tab1">🇬🇧 English</label>
+    
+    <input type="radio" id="tab2" name="tabs">
+    <label for="tab2">🇪🇸 Español</label>
+    
+    <div id="content1">
+        <h2>📌 Games Included</h2>
 
-    <h2>📌 Games Included</h2>
-
-    <h3>1️⃣ The Infernal Dungeon (mazmorra.py)</h3>
-    <p>
-        A text-based adventure game where you help Naruto navigate through a dark dungeon to take the perfect Instagram photo. 
+        ### 1️⃣ The Infernal Dungeon (`mazmorra.py`)
+        A text-based adventure game where you help Naruto navigate through a dark dungeon to take the perfect Instagram photo.  
         Make decisions, collect items, and face challenges along the way!
-    </p>
-    <ul>
-        <li>⭐ Interactive text-based story.</li>
-        <li>⚔️ Different choices affect the outcome.</li>
-        <li>🐉 Face a powerful dragon at the end!</li>
-    </ul>
 
-    <h3>2️⃣ Wordle Clone (wordle.py)</h3>
-    <p>
+        - ⭐ Interactive text-based story.
+        - ⚔️ Different choices affect the outcome.
+        - 🐉 Face a powerful dragon at the end!
+
+        ### 2️⃣ Wordle Clone (`wordle.py`)
         Try to guess the secret 5-letter word in 6 attempts or less. Letters will give you hints:
-        <br> ✅ Correct letter in the correct position.
-        <br> ❎ Correct letter in the wrong position.
-    </p>
-    <ul>
-        <li>🧠 Random words every time you play.</li>
-        <li>⌛ Limited attempts to guess the word.</li>
-        <li>🏆 Win by finding the word before you run out of tries!</li>
-    </ul>
+        ✅ Correct letter in the correct position.  
+        ❎ Correct letter in the wrong position.
 
-    <h3>3️⃣ Rock, Paper, Scissors (ppt.py)</h3>
-    <p>
+        - 🧠 Random words every time you play.
+        - ⌛ Limited attempts to guess the word.
+        - 🏆 Win by finding the word before you run out of tries!
+
+        ### 3️⃣ Rock, Paper, Scissors (`ppt.py`)
         A simple game where you play "Rock, Paper, Scissors" against the computer in a best-of-three match.
-    </p>
-    <ul>
-        <li>🪨 Rock beats Scissors.</li>
-        <li>📄 Paper beats Rock.</li>
-        <li>✂️ Scissors beat Paper.</li>
-    </ul>
 
-    <h2>🚀 How to Play</h2>
-    <ol>
-        <li>Make sure you have Python installed on your system.</li>
-        <li>Download or clone this repository.</li>
-        <li>Run any of the games using the command:
-            <br> <code>python3 mazmorra.py</code> 
-            <br> <code>python3 wordle.py</code>
-            <br> <code>python3 ppt.py</code>
-        </li>
-    </ol>
+        - 🪨 Rock beats Scissors.
+        - 📄 Paper beats Rock.
+        - ✂️ Scissors beat Paper.
 
-    <h2>📜 License</h2>
-    <p>These games are open-source. Feel free to modify and improve them!</p>
+        ## 🚀 How to Play
+        1. Make sure you have Python installed on your system.
+        2. Download or clone this repository.
+        3. Run any of the games using the command:
+           ```sh
+           python3 mazmorra.py
+           python3 wordle.py
+           python3 ppt.py
+           ```
 
-    <hr>
+        ## 📜 License
+        These games are open-source. Feel free to modify and improve them!
+    </div>
 
-    <h1>🎮 Colección de Mini-Juegos en Python</h1>
-    <p>Una colección de mini-juegos divertidos desarrollados en Python. ¡Disfruta jugándolos!</p>
+    <div id="content2">
+        <h2>📌 Juegos Incluidos</h2>
 
-    <h2>📌 Juegos Incluidos</h2>
-
-    <h3>1️⃣ La Mazmorra Infernal (mazmorra.py)</h3>
-    <p>
-        Un juego de aventuras basado en texto donde ayudas a Naruto a recorrer una mazmorra oscura para tomar la foto perfecta para Instagram. 
+        ### 1️⃣ La Mazmorra Infernal (`mazmorra.py`)
+        Un juego de aventuras basado en texto donde ayudas a Naruto a recorrer una mazmorra oscura para tomar la foto perfecta para Instagram.  
         ¡Toma decisiones, recolecta objetos y enfréntate a desafíos en el camino!
-    </p>
-    <ul>
-        <li>⭐ Historia interactiva basada en texto.</li>
-        <li>⚔️ Diferentes elecciones afectan el resultado.</li>
-        <li>🐉 ¡Enfréntate a un poderoso dragón al final!</li>
-    </ul>
 
-    <h3>2️⃣ Clon de Wordle (wordle.py)</h3>
-    <p>
-        Intenta adivinar la palabra secreta de 5 letras en 6 intentos o menos. Las letras te darán pistas:
-        <br> ✅ Letra correcta en la posición correcta.
-        <br> ❎ Letra correcta en la posición incorrecta.
-    </p>
-    <ul>
-        <li>🧠 Palabras aleatorias en cada partida.</li>
-        <li>⌛ Intentos limitados para adivinar la palabra.</li>
-        <li>🏆 ¡Gana encontrando la palabra antes de quedarte sin intentos!</li>
-    </ul>
+        - ⭐ Historia interactiva basada en texto.
+        - ⚔️ Diferentes elecciones afectan el resultado.
+        - 🐉 ¡Enfréntate a un poderoso dragón al final!
 
-    <h3>3️⃣ Piedra, Papel o Tijera (ppt.py)</h3>
-    <p>
+        ### 2️⃣ Clon de Wordle (`wordle.py`)
+        Intenta adivinar la palabra secreta de 5 letras en 6 intentos o menos. Las letras te darán pistas:  
+        ✅ Letra correcta en la posición correcta.  
+        ❎ Letra correcta en la posición incorrecta.
+
+        - 🧠 Palabras aleatorias en cada partida.
+        - ⌛ Intentos limitados para adivinar la palabra.
+        - 🏆 ¡Gana encontrando la palabra antes de quedarte sin intentos!
+
+        ### 3️⃣ Piedra, Papel o Tijera (`ppt.py`)
         Un simple juego donde juegas "Piedra, Papel o Tijera" contra la computadora en una partida al mejor de tres.
-    </p>
-    <ul>
-        <li>🪨 Piedra gana a Tijeras.</li>
-        <li>📄 Papel gana a Piedra.</li>
-        <li>✂️ Tijeras ganan a Papel.</li>
-    </ul>
 
-    <h2>🚀 Cómo Jugar</h2>
-    <ol>
-        <li>Asegúrate de tener Python instalado en tu sistema.</li>
-        <li>Descarga o clona este repositorio.</li>
-        <li>Ejecuta cualquiera de los juegos con el comando:
-            <br> <code>python3 mazmorra.py</code> 
-            <br> <code>python3 wordle.py</code>
-            <br> <code>python3 ppt.py</code>
-        </li>
-    </ol>
+        - 🪨 Piedra gana a Tijeras.
+        - 📄 Papel gana a Piedra.
+        - ✂️ Tijeras ganan a Papel.
 
-    <h2>📜 Licencia</h2>
-    <p>Estos juegos son de código abierto. ¡Siéntete libre de modificarlos y mejorarlos!</p>
+        ## 🚀 Cómo Jugar
+        1. Asegúrate de tener Python instalado en tu sistema.
+        2. Descarga o clona este repositorio.
+        3. Ejecuta cualquiera de los juegos con el comando:
+           ```sh
+           python3 mazmorra.py
+           python3 wordle.py
+           python3 ppt.py
+           ```
 
-</body>
-</html>
+        ## 📜 Licencia
+        Estos juegos son de código abierto. ¡Siéntete libre de modificarlos y mejorarlos!
+    </div>
+</div>
+
+<style>
+    input[name="tabs"] { display: none; }
+    label { 
+        cursor: pointer; 
+        padding: 10px 20px; 
+        background: #f5b31d; 
+        border-radius: 5px;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    div[id^="content"] { display: none; padding: 20px; border-top: 3px solid #1b3652; }
+    input#tab1:checked ~ #content1, input#tab2:checked ~ #content2 { display: block; }
+</style>
