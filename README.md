@@ -1,105 +1,84 @@
-# 🎮 Python Mini-Games Collection
+# Python Mini Games Collection 🎮 | Colección de Mini Juegos en Python 🎮
 
-<div align="center">
-    <input type="radio" id="tab1" name="tabs" checked>
-    <label for="tab1">🇬🇧 English</label>
-    
-    <input type="radio" id="tab2" name="tabs">
-    <label for="tab2">🇪🇸 Español</label>
-    
-    <div id="content1">
-        <h2>📌 Games Included</h2>
+[English](#english) | [Español](#español)
 
-        ### 1️⃣ The Infernal Dungeon (`mazmorra.py`)
-        A text-based adventure game where you help Naruto navigate through a dark dungeon to take the perfect Instagram photo.  
-        Make decisions, collect items, and face challenges along the way!
+## English
 
-        - ⭐ Interactive text-based story.
-        - ⚔️ Different choices affect the outcome.
-        - 🐉 Face a powerful dragon at the end!
+This repository contains three entertaining Python mini-games:
 
-        ### 2️⃣ Wordle Clone (`wordle.py`)
-        Try to guess the secret 5-letter word in 6 attempts or less. Letters will give you hints:
-        ✅ Correct letter in the correct position.  
-        ❎ Correct letter in the wrong position.
+### 1. The Infernal Dungeon 🏰
+Help Naruto navigate through a mysterious dungeon in search of the perfect Instagram photo! In this text-based adventure game:
+- Make strategic choices that affect your character's stats
+- Find items and allies throughout the dungeon
+- Face a mighty dragon in the final encounter
+- Stats include: Health, Energy, Speed, and Strength
+- Multiple endings based on your choices and final battle
 
-        - 🧠 Random words every time you play.
-        - ⌛ Limited attempts to guess the word.
-        - 🏆 Win by finding the word before you run out of tries!
+### 2. Wordle Clone 📝
+A Spanish implementation of the popular word game Wordle:
+- Guess a 5-letter word within 6 attempts
+- Get feedback on correct letters and positions
+- Visual feedback using emojis
+- Words are randomly selected from a predefined list
+- Perfect for Spanish language learners!
 
-        ### 3️⃣ Rock, Paper, Scissors (`ppt.py`)
-        A simple game where you play "Rock, Paper, Scissors" against the computer in a best-of-three match.
+### 3. Rock, Paper, Scissors ✌️
+A classic game implemented with a Best of 3 format:
+- Play against the computer
+- Track wins, losses, and ties
+- View statistics after each round
+- Fun ASCII art animations
+- Simple and intuitive interface
 
-        - 🪨 Rock beats Scissors.
-        - 📄 Paper beats Rock.
-        - ✂️ Scissors beat Paper.
+### How to Play
 
-        ## 🚀 How to Play
-        1. Make sure you have Python installed on your system.
-        2. Download or clone this repository.
-        3. Run any of the games using the command:
-           ```sh
-           python3 mazmorra.py
-           python3 wordle.py
-           python3 ppt.py
-           ```
+1. Make sure you have Python installed on your system
+2. Clone this repository
+3. Run any game using Python:
+```bash
+python the_infernal_dungeon.py
+python wordle.py
+python ppt.py
+```
 
-        ## 📜 License
-        These games are open-source. Feel free to modify and improve them!
-    </div>
+## Español
 
-    <div id="content2">
-        <h2>📌 Juegos Incluidos</h2>
+Este repositorio contiene tres mini juegos entretenidos en Python:
 
-        ### 1️⃣ La Mazmorra Infernal (`mazmorra.py`)
-        Un juego de aventuras basado en texto donde ayudas a Naruto a recorrer una mazmorra oscura para tomar la foto perfecta para Instagram.  
-        ¡Toma decisiones, recolecta objetos y enfréntate a desafíos en el camino!
+### 1. La Mazmorra Infernal 🏰
+¡Ayuda a Naruto a navegar por una mazmorra misteriosa en busca de la foto perfecta para Instagram! En este juego de aventuras basado en texto:
+- Toma decisiones estratégicas que afectan las estadísticas de tu personaje
+- Encuentra objetos y aliados por toda la mazmorra
+- Enfréntate a un poderoso dragón en el encuentro final
+- Estadísticas incluyen: Vida, Energía, Velocidad y Fuerza
+- Múltiples finales basados en tus elecciones y batalla final
 
-        - ⭐ Historia interactiva basada en texto.
-        - ⚔️ Diferentes elecciones afectan el resultado.
-        - 🐉 ¡Enfréntate a un poderoso dragón al final!
+### 2. Clon de Wordle 📝
+Una implementación en español del popular juego Wordle:
+- Adivina una palabra de 5 letras en 6 intentos
+- Recibe retroalimentación sobre letras y posiciones correctas
+- Retroalimentación visual usando emojis
+- Las palabras se seleccionan aleatoriamente de una lista predefinida
+- ¡Perfecto para practicar español!
 
-        ### 2️⃣ Clon de Wordle (`wordle.py`)
-        Intenta adivinar la palabra secreta de 5 letras en 6 intentos o menos. Las letras te darán pistas:  
-        ✅ Letra correcta en la posición correcta.  
-        ❎ Letra correcta en la posición incorrecta.
+### 3. Piedra, Papel o Tijera ✌️
+Un juego clásico implementado en formato Al Mejor de 3:
+- Juega contra la computadora
+- Seguimiento de victorias, derrotas y empates
+- Ver estadísticas después de cada ronda
+- Divertidas animaciones en ASCII
+- Interfaz simple e intuitiva
 
-        - 🧠 Palabras aleatorias en cada partida.
-        - ⌛ Intentos limitados para adivinar la palabra.
-        - 🏆 ¡Gana encontrando la palabra antes de quedarte sin intentos!
+### Cómo Jugar
 
-        ### 3️⃣ Piedra, Papel o Tijera (`ppt.py`)
-        Un simple juego donde juegas "Piedra, Papel o Tijera" contra la computadora en una partida al mejor de tres.
+1. Asegúrate de tener Python instalado en tu sistema
+2. Clona este repositorio
+3. Ejecuta cualquier juego usando Python:
+```bash
+python the_infernal_dungeon.py
+python wordle.py
+python ppt.py
+```
 
-        - 🪨 Piedra gana a Tijeras.
-        - 📄 Papel gana a Piedra.
-        - ✂️ Tijeras ganan a Papel.
-
-        ## 🚀 Cómo Jugar
-        1. Asegúrate de tener Python instalado en tu sistema.
-        2. Descarga o clona este repositorio.
-        3. Ejecuta cualquiera de los juegos con el comando:
-           ```sh
-           python3 mazmorra.py
-           python3 wordle.py
-           python3 ppt.py
-           ```
-
-        ## 📜 Licencia
-        Estos juegos son de código abierto. ¡Siéntete libre de modificarlos y mejorarlos!
-    </div>
-</div>
-
-<style>
-    input[name="tabs"] { display: none; }
-    label { 
-        cursor: pointer; 
-        padding: 10px 20px; 
-        background: #f5b31d; 
-        border-radius: 5px;
-        margin-right: 10px;
-        font-weight: bold;
-    }
-    div[id^="content"] { display: none; padding: 20px; border-top: 3px solid #1b3652; }
-    input#tab1:checked ~ #content1, input#tab2:checked ~ #content2 { display: block; }
-</style>
+---
+Made with ❤️ by [Your Name] | Hecho con ❤️ por [Tu Nombre]
